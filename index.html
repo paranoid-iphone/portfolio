@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Алексей Захаров — разработчик полного цикла. От задачи заказчика до работающего web-сервиса, Telegram-приложения или backend-системы.">
+  <title>Алексей Захаров — от задачи до работающего продукта</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="case.css"><link rel="stylesheet" href="positioning.css"><link rel="stylesheet" href="v5.css"><link rel="stylesheet" href="v6.css"><link rel="stylesheet" href="v7.css">
+</head>
+<body>
+  <header class="nav shell">
+    <a class="mark" href="#top" aria-label="На главную">AZ<span>.</span></a>
+    <nav aria-label="Навигация"><a href="#projects">Проекты</a><a href="#experience">Опыт</a><a href="#about">Обо мне</a></nav>
+    <div class="nav-side"><a class="lang-link" href="/en/">EN</a><a class="nav-cta" href="https://t.me/paranoid_iphone" target="_blank" rel="noreferrer">Написать ↗</a></div>
+  </header>
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> АСТАНА · ОТКРЫТ К ПРЕДЛОЖЕНИЯМ</div>
+        <h1>От задачи заказчика —<br><em>до работающего<br>продукта.</em></h1>
+        <p>Помогаю сформулировать требования, предлагаю решение, разрабатываю и внедряю его. Web-сервисы, Telegram-приложения и backend-системы для бизнеса, мероприятий и внутренних процессов.</p>
+        <div class="hero-proof"><span>100+ пользователей</span><span>Коммерческие заказчики</span><span>Продукты в эксплуатации</span></div>
+        <div class="actions"><a class="button primary" href="#projects">Посмотреть проекты <b>↓</b></a><a class="button secondary" href="https://t.me/paranoid_iphone" target="_blank" rel="noreferrer">Обсудить задачу ↗</a></div>
+      </div>
+      <aside class="status-card" aria-label="Краткая информация">
+        <div class="terminal-top"><i></i><i></i><i></i><span>profile.py</span></div>
+        <pre><code><span class="muted">class</span> <span class="blue">Developer</span>:
+  name = <span class="green">"Aleksei Zakharov"</span>
+  focus = [
+    <span class="green">"web products"</span>,
+    <span class="green">"backend systems"</span>,
+    <span class="green">"automation"</span>
+  ]
+  location = <span class="green">"Astana, KZ"</span>
+  status = <span class="green">"open to work"</span></code></pre>
+        <div class="card-foot"><span class="live-dot"></span> Работа · проекты · долгосрочное сотрудничество</div>
+      </aside>
+    </section>
+    <section class="section shell" id="projects">
+      <div class="section-heading"><div><span class="num">01</span><h2>Продукты</h2></div><p>Системы, которыми пользуются реальные люди — в университете, бизнесе и на производстве.</p></div>
+      <div class="projects">
+        <article class="project featured clubs">
+          <div class="project-index">01 / 03</div>
+          <div class="project-body"><div class="project-kicker">Собственный продукт · развивается</div><h3>AITU Clubs</h3><p>Убрал ручную работу при управлении клубами, бронировании репетиций и подготовке мероприятий.</p><div class="outcomes"><b>100+ пользователей</b><b>Разработал самостоятельно</b><b>Используется сейчас</b></div><div class="tags"><span>FastAPI</span><span>React</span><span>PostgreSQL</span><span>Telegram</span></div><div class="project-links"><a href="/project.html?id=aitu">Как создавался проект →</a></div></div>
+          <div class="project-shot aitu-shot"><img src="assets/aitu-home.png" alt="Главный экран AITU Clubs"><span>Реальный интерфейс · Telegram Mini App</span></div>
+        </article>
+        <article class="project case-card dgu-card">
+          <div class="project-index">02 / 03</div>
+          <div class="case-copy"><div class="project-kicker">Freelance · производство</div><h3>DGU Monitoring</h3><p>Создал систему, которая автоматически получает и показывает параметры промышленных генераторов.</p><div class="outcomes"><b>10 дней · от таблицы регистров до установки</b><b>Полный цикл · протокол, backend, интерфейс и запуск</b><b>Оптимизированный polling · разные приоритеты обновления</b></div><div class="tags"><span>Python</span><span>Modbus</span><span>Linux</span></div><div class="project-links"><a href="/project.html?id=dgu">Как создавался проект →</a></div></div>
+          <div class="project-shot dgu-shot"><img src="assets/dgu-overview.png" alt="Рабочий экран системы мониторинга DGU"><span>Система работает в цеху заказчика</span></div>
+        </article>
+        <article class="project case-card dark ai-card">
+          <div class="project-index">03 / 03</div>
+          <div class="case-copy"><div class="project-kicker">Командный проект · backend</div><h3>AI Day Platform</h3><p>Разработал backend одной платформы, которую адаптировали для двух мероприятий в Астане и Атырау.</p><div class="outcomes"><b>2 мероприятия</b><b>100+ участников на каждом</b><b>Игровая логика и античит</b></div><div class="tags"><span>FastAPI</span><span>PostgreSQL</span><span>Render</span></div><div class="project-links"><a href="/project.html?id=aiday">Как создавался проект →</a></div></div>
+          <div class="project-shot phone-shot"><img src="assets/aiday-quiz.png" alt="Экран квиза AI Day Platform"><span>Трёхъязычная Telegram Mini App</span></div>
+        </article>
+      </div>
+    </section>
+    <section class="section workflow"><div class="shell"><div class="section-heading"><div><span class="num">02</span><h2>От идеи до запуска</h2></div><p>Можно прийти без готового технического задания — достаточно объяснить задачу.</p></div><div class="delivery-line"><article><span>01</span><small>НА ВХОДЕ</small><h3>Задача</h3><p>Разбираемся в процессе, пользователях и ожидаемом результате.</p></article><article><span>02</span><small>ПЛАН</small><h3>Первая версия</h3><p>Определяем основные функции, сроки и техническое решение.</p></article><article><span>03</span><small>В РАБОТЕ</small><h3>Разработка</h3><p>Показываю промежуточный результат и учитываю обратную связь.</p></article><article class="live-step"><span>04</span><small>PRODUCT LIVE</small><h3>Запуск</h3><p>Разворачиваю продукт, проверяю его в работе и передаю инструкции.</p></article></div></div></section>
+    <section class="section experience" id="experience"><div class="shell">
+      <div class="section-heading light"><div><span class="num">03</span><h2>Опыт</h2></div><p>Коммерческая разработка, собственные продукты и преподавание.</p></div>
+      <div class="timeline experience-grid">
+        <article class="experience-featured"><div class="exp-meta"><time>ПРОЕКТНАЯ РАБОТА</time><span>КОММЕРЧЕСКАЯ РАЗРАБОТКА</span></div><div class="exp-role"><h3>Freelance</h3><h4>Software Developer</h4></div><div class="exp-copy"><p>Разрабатываю продукты под реальные задачи заказчиков — от обсуждения требований и архитектуры до интерфейса, сервера и установки.</p><ul><li>Промышленный мониторинг, Telegram Mini Apps и event-платформы</li><li>Самостоятельная разработка полного цикла и работа в команде</li><li>Развёртывание на Linux и Render, доработка после запуска</li></ul></div></article>
+        <article><div class="exp-meta"><time>ДЕК 2023 — МАР 2024</time><span>HORECA · R_KEEPER 7</span></div><div class="exp-role"><h3>Carbis</h3><h4>Python Developer Intern · Новосибирск</h4></div><div class="exp-copy"><p>Работал над внутренними задачами компании, которая автоматизирует ресторанный бизнес.</p><ul><li>REST/XML API, конфигурации и логи r_keeper 7</li><li>Настройка тестовых окружений ресторанов</li><li>Unit-тесты, отладка и небольшие backend-сервисы</li></ul></div></article>
+        <article><div class="exp-meta"><time>С СЕНТЯБРЯ 2023</time><span>≈ 3 ГОДА ПРАКТИКИ</span></div><div class="exp-role"><h3>Преподавание</h3><h4>Python Tutor · KreITvika</h4></div><div class="exp-copy"><p>Провожу индивидуальные и групповые занятия онлайн и офлайн.</p><ul><li>Python, ООП, SQL и алгоритмы</li><li>Учебные проекты вместо одной сухой теории</li><li>Объяснение сложных тем простым языком</li></ul></div></article>
+      </div>
+    </div></section>
+    <section class="section shell about" id="about">
+      <div class="section-heading"><div><span class="num">04</span><h2>Обо мне</h2></div></div>
+      <div class="about-grid about-with-photo"><div><p class="lead">Я не ограничиваюсь написанием кода — <em>беру ответственность за запуск.</em></p><p>Могу подключиться к готовому backend-проекту или взять разработку продукта целиком. Умею работать с заказчиком без технического ТЗ, выделять главное и находить практичное решение.</p><p>Учусь на Computer Science в Astana IT University с 2024 по 2027 год, преподаю Python и развиваю собственный продукт для университетских клубов.</p><div class="skills"><span>Python</span><span>FastAPI</span><span>Django</span><span>React</span><span>PostgreSQL</span><span>Redis</span><span>Docker</span><span>Linux</span></div></div><figure class="portrait"><img src="assets/aleksei-portrait.png" alt="Алексей Захаров с ноутбуком"><figcaption>Aleksei Zakharov · Astana</figcaption></figure></div>
+    </section>
+    <section class="contact"><div class="shell"><div class="contact-layout"><div class="contact-main"><span class="num">05</span><p>Есть задача, но пока нет готового технического решения?</p><h2>Обсудим<br>задачу<span>.</span></h2><p class="contact-copy">Расскажите, какой процесс нужно упростить или какой продукт запустить. Я помогу определить первую версию и предложу способ реализации.</p><div class="contact-actions"><a class="button primary" href="https://t.me/paranoid_iphone" target="_blank" rel="noreferrer">Обсудить в Telegram ↗</a><a class="button outline" href="mailto:alzaharov20@gmail.com">Email ↗</a><a class="button outline" href="https://github.com/paranoid-iphone" target="_blank" rel="noreferrer">GitHub ↗</a></div></div><aside class="availability-card"><span><i></i> ОТКРЫТ К ПРЕДЛОЖЕНИЯМ</span><h3>Можно обсудить</h3><ul><li>Работу в продуктовой команде</li><li>Разработку проекта</li><li>Долгосрочное сотрудничество</li></ul><div><small>ЛОКАЦИЯ</small><b>Астана · удалённо</b></div><a href="https://t.me/paranoid_iphone" target="_blank" rel="noreferrer">@paranoid_iphone ↗</a></aside></div><div class="contact-foot"><span>Алексей Захаров · Software Developer</span><a href="mailto:alzaharov20@gmail.com">alzaharov20@gmail.com</a><span>Астана · 2026</span></div></div></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
